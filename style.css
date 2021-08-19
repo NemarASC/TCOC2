@@ -1,4 +1,7 @@
-
+.header {
+    background-color: darkslategrey;
+    padding: 20px;
+}
 /*
 div {
     font-family: Helvetica;
