@@ -11,24 +11,24 @@
    <style>
    .header {
       background-color: #272D33;
-      padding: 20px;
+      padding: 15px;
     }
    .dropbtn {
-      background-color: #3498DB;
+      background-color: #272D33;
       color: white;
-      padding: 20px;
-      font-size: 16px;
+      padding: 15px;
+      font-size: 13px;
       border: none;
       cursor: pointer;
     }
     
     .dropbtn:hover, .dropbtn:focus {
-      background-color: #2980B9;
+      background-color: #272D33;
     }
     
     .dropdown {
       position: relative;
-      display: inline-block;
+      display: block;
     }
     
     .dropdown-content {
@@ -45,18 +45,27 @@
       color: black;
       padding: 5px 120px;
       text-decoration: none;
-      display: inline-block; 
+      display: block; 
     }
     
     .dropdown a:hover {background-color: #ddd;}
     .show {display:block;}
+
+    p {
+        margin: 30px;
+        text-align: justify;
+        text-align: center;
+        text-indent: 5%;
+        font-size: 20px;
+        color: black;
+    }
 
       </style>
       </head>
       <body>
             
       <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <button onclick="myFunction()" class="dropbtn" onclick="myFunction()" class="dropbtn"><img class="items" src="boi.png"</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="about.html">Mission</a>
           <a href="home.html">NYC</a>
@@ -85,24 +94,38 @@
           }
         }
       }
-      </script>
+      </script> 
       <!-- end of dropdown menu-->
-
-      <img class ="items" src = "boi.png">
+<!--This is the logo image-->
+      <!--<img class ="items" src = "boi.png">-->
          
          <div class="header">
           <h1>The Cities of Clean</h1>
         </div>
 
          <h1>Pollution</h1>
-         <p>There are 3 major types of pollution. These include air, water, and land.</p>
-         <br>
-         <br>
+         <p>Pollution is many things but the most basic definition would be the introduction of harmful substances to the environment. Examples of this would be littering, car smoke, man-made waste dumped into the ocean, etc. There are 3 major types of pollution. These include air, water, and land.</p>
+<!--Image Gallery for types of pollution-->          
+            <div id="gallery">
+                <img src="http://b.parsons.edu/~pany468/parsons/political_website/source2/images/image1.jpg" style="width: 300px; height: 300px">
+                <img src="https://cdn.aarp.net/content/dam/aarp/health/conditions_treatments/2019/11/1140-air-pollution-smoke-stacks.imgcache.rev.web.1140.655.jpg" style="width: 300px; height: 300px">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/88A2/production/_117787943_0.jpg" style="width: 300px; height: 300px">
+            </div>
+           <div class="desc"> 
+              <h3>Water Pollution</h3>
+              <h3>Air Pollution<h3>
+              <h3>Land Pollution</h3>
+           </div>
+<br>
+<br>
          <h1>How pollution affects daily life</h1>
+         <p>We should care about pollution because it is a major issue that’s not only affecting a small number of people but the whole world and even the world itself. Pollution affects the health of all of us and can be a serious issue later on in life.  The Earth is the planet we live on and we need to make sure we take care of it.</p>
          <br>
          <h1>Pollution's impact on wildlife</h1>
          <br>
          <h1>Pollution's correlation with other envirnomental problems</h1>
-      -->   
+         <p>Pollution is causing many problems like poor air quality and harming wildlife.</p>
+
+      
 </body>
 </html>
